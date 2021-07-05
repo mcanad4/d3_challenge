@@ -1,4 +1,3 @@
-// @TODO: YOUR CODE HERE!
 var svgWidth = 960;
 var svgHeight = 500;
 
@@ -28,7 +27,7 @@ d3.csv("data.csv").then(function(stateData) {
     // ==============================
     stateData.forEach(function(data) {
         data.poverty = +data.poverty;
-        data.healthcare = +healthcare;
+        data.healthcare = +data.healthcare;
       });
 
     // Step 2: Create scale functions
